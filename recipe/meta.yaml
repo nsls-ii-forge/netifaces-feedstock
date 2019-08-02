@@ -14,9 +14,9 @@ source:
   {{ hash_type }}: {{ hash_val }}
 
 build:
-  number: 1000
-  script: python -m pip install --no-deps --ignore-installed .
-
+  number: 0
+  script: python -m pip install --no-deps -vv --ignore-installed .
+  skip: True # [py<36]
 
 requirements:
   build:
