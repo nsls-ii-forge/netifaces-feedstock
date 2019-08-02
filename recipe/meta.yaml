@@ -34,7 +34,7 @@ test:
   imports:
     - {{ name }}
   commands:
-    - pytest --pyargs test.py
+    - pytest 
 
 about:
   home: https://github.com/al45tair/netifaces
